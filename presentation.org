@@ -74,6 +74,25 @@ LocalStorage/https︓//lisplog.org
 
 http://localhost:8000
 
+* Stories
+
+Nate asked me to share some stories. Here are a
+few ideas. Pick one.
+
+[[https://en.wikipedia.org/wiki/Joseph_Weizenbaum][Joseph Weisenbaum]]: mercury delay-line memory.
+Creator of [[https://en.wikipedia.org/wiki/ELIZA][ELIZA]]. "m-x doctor" in Emacs.
+
+[[https://en.wikipedia.org/wiki/Teletype_Model_33][TTY-33]] connected to Xerox Sigma 7 at UW in 1972.
+
+TTY-33 connected to custom microcoded machine at
+MIT in 1975. Seven-state UART, clocked at four
+times BAUD rate.
+
+Information hiding, the fundamental principle of
+good software. Learned it at my first job out of
+college in 1978, writing RatFor on PDP-11 under
+RT-11.
+
 * Local Variables
 
 # Local Variables:
