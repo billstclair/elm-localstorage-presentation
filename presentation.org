@@ -2,8 +2,9 @@ JavaScript localStorage in Elm
 Elm Eugene
 Wednesday, May 9, 2018, 5:30pm PDT
 Bill St. Clair <billstclair@gmail.com>
-[[https://www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb/][www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb/]]
+[[https://www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb/][www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb]]
 [[https://lisplog.org/localstorage/presentation.org][lisplog.org/localstorage/presentation.org]]
+[[https://github.com/billstclair/elm-localstorage-presentation][github.com/billstclair/elm-localstorage-presentation]]
 
 * Org mode
 
