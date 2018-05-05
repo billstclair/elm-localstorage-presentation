@@ -28,20 +28,20 @@ Test http://localhost:8000
 
 Local meeting starts at 8:30pm EDT. Zoom meeting starts around 9pm EDT. Link on Slack then.
 
-+ Share screen in Zoom.
-+ Emacs first, Chrome for code, Desktop for demo
-+ C-x n, C-x p
+- Share screen in Zoom.
+- Emacs first, Chrome for code, Desktop for demo
+- C-x n, C-x p
 
 * Intro
 
 You often need to have persistent state for your Elm apps. I've found the easiest way to do this is with the JavaScript [[https://html.spec.whatwg.org/multipage/webstorage.html#storage-2][localStorage]] facility.
 
-+ localStorage.getItem(<name>)
-+ localStorage.setItem(<name>, <value>)
-+ localStorage.removeItem(<name>)
-+ localStorage.length
-+ localStorage.key(<index>)
-+ localStorage.clear()
+- localStorage.getItem(<name>)
+- localStorage.setItem(<name>, <value>)
+- localStorage.removeItem(<name>)
+- localStorage.length
+- localStorage.key(<index>)
+- localStorage.clear()
 
 localStorage provides a persistent key/value store for strings, with a separate database for each domain.
 
@@ -53,38 +53,38 @@ Peruse docs for LocalStorage and LocalStorage.SharedTypes.
 
 * Code
 
-+ [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/PortExample.elm][example/PortExample.elm]]
-+ [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/SharedUI.elm][example/SharedUI.elm]]
-+ [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/site/index.html][site/index.html]]
-+ [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/site/js/ElmLocalStoragePorts.js][site/js/ElmLocalStoragePorts.js]]
+- [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/PortExample.elm][example/PortExample.elm]]
+- [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/SharedUI.elm][example/SharedUI.elm]]
+- [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/site/index.html][site/index.html]]
+- [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/site/js/ElmLocalStoragePorts.js][site/js/ElmLocalStoragePorts.js]]
 
 * Demo
 
 https://lisplog.org/localstorage
 
-+ Right-click, Inspect
-+ Application tab
-+ LocalStorage/https︓//lisplog.org
+- Right-click, Inspect
+- Application tab
+- LocalStorage/https︓//lisplog.org
 
 * Elm Reactor Version
 
-+ [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/ReactorExample.elm][example/ReactorExample.elm]].
-+ http://localhost:8000
+- [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/ReactorExample.elm][example/ReactorExample.elm]].
+- http://localhost:8000
 
 * Other apps/games
 
 Kakuro Dojo, Archmage, Spokes, Zippy, JSMaze (WIP)
-  + [[https://GibGoyGames.com][GibGoyGames.com]] (Big Boy Games sideways, sort of)
+- [[https://GibGoyGames.com][GibGoyGames.com]] (Big Boy Games sideways, sort of)
 
 [[https://Xossbow.com/][Xossbow.com]] - blogging in Elm (WIP)
-  + [[http://package.elm-lang.org/packages/billstclair/elm-html-template/latest][billstclair/elm-html-template]]
-  + [[https://lisplog.org][Lisplog.org]] - blogging in Lisp (2011)
-  + [[https://www.drupal.org/][Drupal.org]] - blogging in PHP (WordPress)
-  + [[https://github.com/billstclair/BlogMax][BlogMax]] - blogging in Emacs (2001)
-  + [[http://scripting.com/davenet/1999/12/08/editthispagecom.html][EditThisPage.com]] - Dave Winer's blogger (1999)
+- [[http://package.elm-lang.org/packages/billstclair/elm-html-template/latest][billstclair/elm-html-template]]
+- [[https://lisplog.org][Lisplog.org]] - blogging in Lisp (2011)
+- [[https://www.drupal.org/][Drupal.org]] - blogging in PHP (WordPress)
+- [[https://github.com/billstclair/BlogMax][BlogMax]] - blogging in Emacs (2001)
+- [[http://scripting.com/davenet/1999/12/08/editthispagecom.html][EditThisPage.com]] - Dave Winer's blogger (1999)
 
 [[https://lisplog.org/diceware/][lisplog.org/diceware]] - Passphrase generator
-  + [[http://package.elm-lang.org/packages/billstclair/elm-dev-random/latest][billstclair/elm-dev-random]]
+- [[http://package.elm-lang.org/packages/billstclair/elm-dev-random/latest][billstclair/elm-dev-random]]
 
 * Questions/Stories
 
@@ -93,8 +93,8 @@ Pick one or two, as time permits.
 Questions about the presentation.
 
 Server-side Elm (runs in Node.js)
-  + [[https://github.com/billstclair/elm-websocket-framework][elm-websocket-framework]], [[https://github.com/billstclair/elm-oauth-middleware][elm-oauth-middleware]]
-  + Archmage, Spokes, JSMaze (soon)
+- [[https://github.com/billstclair/elm-websocket-framework][elm-websocket-framework]], [[https://github.com/billstclair/elm-oauth-middleware][elm-oauth-middleware]]
+- Archmage, Spokes, JSMaze (soon)
 
 Information hiding, the fundamental principle of good software.
 
