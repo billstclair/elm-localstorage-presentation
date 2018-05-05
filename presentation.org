@@ -2,9 +2,9 @@ JavaScript localStorage in Elm
 Elm Eugene
 Wednesday, May 9, 2018, 5:30pm PDT
 Bill St. Clair <billstclair@gmail.com>
-[[https://www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb/][www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb]]
-[[https://lisplog.org/localstorage/presentation.org][lisplog.org/localstorage/presentation.org]]
-[[https://github.com/billstclair/elm-localstorage-presentation][github.com/billstclair/elm-localstorage-presentation]]
+ + [[https://www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb/][www.meetup.com/Elm-Eug/events/vcjrhpyxhbmb]]
+ + [[https://lisplog.org/localstorage/presentation.org][lisplog.org/localstorage/presentation.org]]
+ + [[https://github.com/billstclair/elm-localstorage-presentation][github.com/billstclair/elm-localstorage-presentation]]
 
 * Org mode
 
@@ -52,8 +52,11 @@ Peruse docs for LocalStorage and LocalStorage.SharedTypes.
 * Code
 
 [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/PortExample.elm][example/PortExample.elm]]
+
 [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/example/SharedUI.elm][example/SharedUI.elm]]
+
 [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/site/index.html][site/index.html]]
+
 [[https://github.com/billstclair/elm-localstorage/blob/4.0.2/site/js/ElmLocalStoragePorts.js][site/js/ElmLocalStoragePorts.js]]
 
 * Demo
@@ -61,7 +64,9 @@ Peruse docs for LocalStorage and LocalStorage.SharedTypes.
 https://lisplog.org/localstorage
 
 Right-click, Inspect
+
 Application tab
+
 LocalStorage/https︓//lisplog.org
 
 * Elm Reactor Version
@@ -73,17 +78,17 @@ http://localhost:8000
 * Other apps/games
 
 Kakuro Dojo, Archmage, Spokes, Zippy, JSMaze (WIP)
-  [[https://GibGoyGames.com][GibGoyGames.com]] (Big Boy Games sideways, sort of)
+  + [[https://GibGoyGames.com][GibGoyGames.com]] (Big Boy Games sideways, sort of)
 
 [[https://Xossbow.com/][Xossbow.com]] - blogging in Elm (WIP)
-  [[http://package.elm-lang.org/packages/billstclair/elm-html-template/latest][billstclair/elm-html-template]]
-  [[https://lisplog.org][Lisplog.org]] - blogging in Lisp (2011)
-  [[https://www.drupal.org/][Drupal.org]] - blogging in PHP (WordPress)
-  [[https://github.com/billstclair/BlogMax][BlogMax]] - blogging in Emacs (2001)
-  [[http://scripting.com/davenet/1999/12/08/editthispagecom.html][EditThisPage.com]] - Dave Winer's blogger (1999)
+  + [[http://package.elm-lang.org/packages/billstclair/elm-html-template/latest][billstclair/elm-html-template]]
+  + [[https://lisplog.org][Lisplog.org]] - blogging in Lisp (2011)
+  + [[https://www.drupal.org/][Drupal.org]] - blogging in PHP (WordPress)
+  + [[https://github.com/billstclair/BlogMax][BlogMax]] - blogging in Emacs (2001)
+  + [[http://scripting.com/davenet/1999/12/08/editthispagecom.html][EditThisPage.com]] - Dave Winer's blogger (1999)
 
 [[https://lisplog.org/diceware/][lisplog.org/diceware]] - Passphrase generator
-  [[http://package.elm-lang.org/packages/billstclair/elm-dev-random/latest][billstclair/elm-dev-random]]
+  + [[http://package.elm-lang.org/packages/billstclair/elm-dev-random/latest][billstclair/elm-dev-random]]
 
 * Questions/Stories
 
@@ -92,8 +97,8 @@ Pick one or two, as time permits.
 Questions about the presentation.
 
 Server-side Elm (runs in Node.js)
-  [[https://github.com/billstclair/elm-websocket-framework][elm-websocket-framework]], [[https://github.com/billstclair/elm-oauth-middleware][elm-oauth-middleware]]
-  Archmage, Spokes, JSMaze (soon)
+  + [[https://github.com/billstclair/elm-websocket-framework][elm-websocket-framework]], [[https://github.com/billstclair/elm-oauth-middleware][elm-oauth-middleware]]
+  + Archmage, Spokes, JSMaze (soon)
 
 Information hiding, the fundamental principle of good software.
 
