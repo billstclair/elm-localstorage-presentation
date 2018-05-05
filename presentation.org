@@ -16,13 +16,13 @@ This is an Emacs Org Mode buffer. Many features will be missing if you don't hav
 
 To be done before the presentation.
 
-cd ~/elm-localstorage/example
-elm reactor
+- cd ~/elm-localstorage/example
+- elm reactor
 
 Open a new window in Chrome. Hide the others.
-Make Chrome the default browser.
-Make the default font bigger.
-  chrome://settings/fonts
+- Make Chrome the default browser.
+- Make the default font bigger.
+- chrome://settings/fonts
 
 Test http://localhost:8000
 
