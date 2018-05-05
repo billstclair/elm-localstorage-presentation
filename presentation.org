@@ -12,8 +12,6 @@ This is an Emacs Org Mode buffer. Many features will be missing if you don't hav
 
 * Setup
 
-Start at 9pm EDT. Link on Slack then.
-
 To be done before the presentation.
 
 cd ~/elm-localstorage/example
@@ -26,9 +24,11 @@ Make the default font bigger.
 
 Test http://localhost:8000
 
-Share screen in Zoom.
-Emacs first, Chrome, Desktop for demo
-C-x n, C-x p
+Local meeting starts at 8:30pm EDT. Zoom meeting starts around 9pm EDT. Link on Slack then.
+
++ Share screen in Zoom.
++ Emacs first, Chrome for code, Desktop for demo
++ C-x n, C-x p
 
 * Intro
 
@@ -60,11 +60,9 @@ Peruse docs for LocalStorage and LocalStorage.SharedTypes.
 
 https://lisplog.org/localstorage
 
-Right-click, Inspect
-
-Application tab
-
-LocalStorage/https︓//lisplog.org
++ Right-click, Inspect
++ Application tab
++ LocalStorage/https︓//lisplog.org
 
 * Elm Reactor Version
 
