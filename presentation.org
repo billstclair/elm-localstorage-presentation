@@ -13,16 +13,23 @@ will be missing if you don't have Emacs.
 
 * Setup
 
+Start at 9pm EDT. Link on Slack then.
+
 To be done before the presentation.
 
 cd ~/elm-localstorage/example
 elm reactor
 
 Open a new window in Chrome. Hide the others.
+Make Chrome the default browser.
 Make the default font bigger.
   chrome://settings/fonts
 
-http://localhost:8000
+Test http://localhost:8000
+
+Share screen in Zoom.
+Emacs first, Chrome, Desktop for demo
+C-x n, C-x p
 
 * Intro
 
@@ -74,12 +81,36 @@ LocalStorage/https︓//lisplog.org
 
 http://localhost:8000
 
-* Stories
+* Other apps/games
 
-Nate asked me to share some stories. Here are a
-few ideas. Pick one.
+Kakuro Dojo, Archmage, Spokes, Zippy, JSMaze (WIP)
+  [[https://GibGoyGames.com][GibGoyGames.com]] (Big Boy Games sideways, sort of)
+
+[[https://Xossbow.com/][Xossbow.com]] - blogging in Elm (WIP)
+  [[http://package.elm-lang.org/packages/billstclair/elm-html-template/latest][billstclair/elm-html-template]]
+  [[https://lisplog.org][Lisplog.org]] - blogging in Lisp (2011)
+  [[https://www.drupal.org/][Drupal.org]] - blogging in PHP (WordPress)
+  [[https://github.com/billstclair/BlogMax][BlogMax]] - blogging in Emacs (2001)
+  [[http://scripting.com/davenet/1999/12/08/editthispagecom.html][EditThisPage.com]] - Dave Winer's blogger (1999)
+
+[[https://lisplog.org/diceware/][lisplog.org/diceware]] - Passphrase generator
+  [[http://package.elm-lang.org/packages/billstclair/elm-dev-random/latest][billstclair/elm-dev-random]]
+
+* Questions/Stories
+
+Pick one or two, as time permits.
+
+Questions about the presentation.
+
+Server-side Elm (runs in Node.js)
+  [[https://github.com/billstclair/elm-websocket-framework][elm-websocket-framework]], [[https://github.com/billstclair/elm-oauth-middleware][elm-oauth-middleware]]
+  Archmage, Spokes, JSMaze (soon)
+
+Information hiding, the fundamental principle of
+good software.
 
 [[https://en.wikipedia.org/wiki/Joseph_Weizenbaum][Joseph Weisenbaum]]: mercury delay-line memory.
+Baby Talk. Explain to 6-year-old or you don't grok.
 Creator of [[https://en.wikipedia.org/wiki/ELIZA][ELIZA]]. "m-x doctor" in Emacs.
 
 [[https://en.wikipedia.org/wiki/Teletype_Model_33][TTY-33]] connected to Xerox Sigma 7 at UW in 1972.
@@ -87,11 +118,6 @@ Creator of [[https://en.wikipedia.org/wiki/ELIZA][ELIZA]]. "m-x doctor" in Emacs
 TTY-33 connected to custom microcoded machine at
 MIT in 1975. Seven-state UART, clocked at four
 times BAUD rate.
-
-Information hiding, the fundamental principle of
-good software. Learned it at my first job out of
-college in 1978, writing RatFor on PDP-11 under
-RT-11.
 
 * Local Variables
 
