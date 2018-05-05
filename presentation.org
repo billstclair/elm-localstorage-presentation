@@ -8,8 +8,7 @@ Bill St. Clair <billstclair@gmail.com>
 
 * Org mode
 
-This is an Emacs Org Mode buffer. Many features
-will be missing if you don't have Emacs.
+This is an Emacs Org Mode buffer. Many features will be missing if you don't have Emacs.
 
 * Setup
 
@@ -33,9 +32,7 @@ C-x n, C-x p
 
 * Intro
 
-You often need to have persistent state for your
-Elm apps. I've found the easiest way to do this is
-with the JavaScript [[https://html.spec.whatwg.org/multipage/webstorage.html#storage-2][localStorage]] facility.
+You often need to have persistent state for your Elm apps. I've found the easiest way to do this is with the JavaScript [[https://html.spec.whatwg.org/multipage/webstorage.html#storage-2][localStorage]] facility.
 
 localStorage.getItem(<name>)
 localStorage.setItem(<name>, <value>)
@@ -44,21 +41,13 @@ localStorage.length
 localStorage.key(<index>)
 localStorage.clear()
 
-localStorage provides a persistent key/value store
-for strings, with a separate database for each
-domain.
+localStorage provides a persistent key/value store for strings, with a separate database for each domain.
 
 * billstclair/elm-localstorage
 
-[[http://package.elm-lang.org/packages/billstclair/elm-localstorage/latest][billstclair/elm-localstorage]] provides a simple
-port-based interface from Elm to JS
-localStorage. There is a pure-Elm, Dict-based
-version that you can use in elm-reactor, and a
-tiny JS file that you can attach to your
-index.html file for real persistence.
+[[http://package.elm-lang.org/packages/billstclair/elm-localstorage/latest][billstclair/elm-localstorage]] provides a simple port-based interface from Elm to JS localStorage. There is a pure-Elm, Dict-based version that you can use in elm-reactor, and a tiny JS file that you can attach to your index.html file for real persistence.
 
-Peruse docs for LocalStorage and
-LocalStorage.SharedTypes.
+Peruse docs for LocalStorage and LocalStorage.SharedTypes.
 
 * Code
 
@@ -106,8 +95,7 @@ Server-side Elm (runs in Node.js)
   [[https://github.com/billstclair/elm-websocket-framework][elm-websocket-framework]], [[https://github.com/billstclair/elm-oauth-middleware][elm-oauth-middleware]]
   Archmage, Spokes, JSMaze (soon)
 
-Information hiding, the fundamental principle of
-good software.
+Information hiding, the fundamental principle of good software.
 
 [[https://en.wikipedia.org/wiki/Joseph_Weizenbaum][Joseph Weisenbaum]]: mercury delay-line memory.
 Baby Talk. Explain to 6-year-old or you don't grok.
@@ -115,13 +103,11 @@ Creator of [[https://en.wikipedia.org/wiki/ELIZA][ELIZA]]. "m-x doctor" in Emacs
 
 [[https://en.wikipedia.org/wiki/Teletype_Model_33][TTY-33]] connected to Xerox Sigma 7 at UW in 1972.
 
-TTY-33 connected to custom microcoded machine at
-MIT in 1975. Seven-state UART, clocked at four
-times BAUD rate.
+TTY-33 connected to custom microcoded machine at MIT in 1975. Seven-state UART, clocked at four times BAUD rate.
 
 * Local Variables
 
 # Local Variables:
 # fill-column: 50
-# eval: (progn (text-scale-set 4) (auto-fill-mode))
+# eval: (progn (text-scale-set 4) (visual-line-mode))
 # End:
